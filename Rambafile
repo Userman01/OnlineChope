@@ -1,0 +1,26 @@
+### Headers settings
+company: postnikovpp
+
+### Xcode project settings
+project_name: OnlineShop
+xcodeproj_path: OnlineShop.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: OnlineShop
+
+# The file path for new modules
+project_file_path: OnlineShop/Modules
+
+# The Xcode group path to new modules
+project_group_path: OnlineShop/Modules
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+catalogs:
+- 'https://github.com/alfa-laboratory/YARCH-Template'
+
+templates:
+- {name: yarch}

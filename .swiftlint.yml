@@ -1,0 +1,17 @@
+disabled_rules:
+  - trailing_whitespace
+  - nesting
+  - trailing_newline
+line_length: 200
+excluded:
+  - Pods
+  - Templates
+  - R.generated.swift
+  - OnlineShop/Common/Extensions/UITableView/UITableView.swift
+  - OnlineShop/Common/Extensions/UICollectionView/UICollectionView.swift
+function_body_length:
+  warning: 100
+  error: 150
+function_parameter_count:
+  warning: 6
+  error: 10
