@@ -4,6 +4,8 @@
 //  Copyright (c) 2023 postnikovpp. All rights reserved.
 //
 
+import UIKit
+
 protocol SignInPresentationLogic {
 
     // Показ полей
@@ -22,8 +24,18 @@ final class SignInPresenter: SignInPresentationLogic {
 }
 
 extension SignInPresenter {
-
+    
     private func getViewModel() -> SignInViewModel {
-        SignInViewModel()
+        SignInViewModel(cells: [
+            .title(TextViewModel(
+                text: "sdfsdf",
+                titleColor: .blue,
+                textAlignment: .center,
+                margins: UIEdgeInsets(
+                    top: .spacing120Pt,
+                    left: .zero,
+                    bottom: .spacing120Pt,
+                    right: .zero)))
+        ])
     }
 }

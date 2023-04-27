@@ -3,12 +3,18 @@
 //  Copyright (c) 2023 postnikovpp. All rights reserved.
 //
 
+import UIKit
+
 struct SignInViewModel {
-    let cellType: SignInCellType
+    let cells: [SignInCellType]
+    
+    init(cells: [SignInCellType] = []) {
+        self.cells = cells
+    }
 }
 
 enum SignInCellType {
-    case textField
-    case title
-    case button
+    case title(TextViewModel)
+    case textField(TextFieldViewModel, UIEdgeInsets)
+    case button(ActionButtonCellViewModel)
 }

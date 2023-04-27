@@ -18,6 +18,14 @@
 		A700F850228C288CFA010A27 /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E026174214DC8C358D190F90 /* SignInPresenter.swift */; };
 		B0052CD6297E342D715B702B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FF97C5E81BC52B524B087 /* SignInViewController.swift */; };
 		BD5E4B8725D74C40F6B49F31 /* SignInTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6766C8087445FB691B025658 /* SignInTableDelegate.swift */; };
+		C94E53A929C6F748007644E0 /* TextFieldViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94E53A829C6F748007644E0 /* TextFieldViewCell.swift */; };
+		C94E53AC29C6F7E8007644E0 /* TextFieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94E53AB29C6F7E8007644E0 /* TextFieldViewModel.swift */; };
+		C94E53AF29C6F8D2007644E0 /* TextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94E53AE29C6F8D2007644E0 /* TextFieldModel.swift */; };
+		C94E53B129C6F9F2007644E0 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94E53B029C6F9F2007644E0 /* TextCell.swift */; };
+		C94E53B329C70306007644E0 /* TextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94E53B229C70306007644E0 /* TextViewModel.swift */; };
+		C94E53B629C70389007644E0 /* ActionButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94E53B529C70389007644E0 /* ActionButtonCell.swift */; };
+		C94E53B829C70577007644E0 /* ActionButtonCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94E53B729C70577007644E0 /* ActionButtonCellViewModel.swift */; };
+		C94E53BA29C705E2007644E0 /* DirectionalLayoutMargins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94E53B929C705E2007644E0 /* DirectionalLayoutMargins.swift */; };
 		C9B93A6B29BDF02F0097D385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B93A6A29BDF02F0097D385 /* AppDelegate.swift */; };
 		C9B93A6D29BDF02F0097D385 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B93A6C29BDF02F0097D385 /* SceneDelegate.swift */; };
 		C9B93A7429BDF0310097D385 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B93A7329BDF0310097D385 /* Images.xcassets */; };
@@ -89,6 +97,14 @@
 		870C385C8DB90C1876A67AA8 /* Pods-OnlineShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineShop.debug.xcconfig"; path = "Target Support Files/Pods-OnlineShop/Pods-OnlineShop.debug.xcconfig"; sourceTree = "<group>"; };
 		A45F03D8EEB23C27870008E9 /* SignInService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInService.swift; sourceTree = "<group>"; };
 		B5B13C95A887830BDEC81A1F /* SignInInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
+		C94E53A829C6F748007644E0 /* TextFieldViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewCell.swift; sourceTree = "<group>"; };
+		C94E53AB29C6F7E8007644E0 /* TextFieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewModel.swift; sourceTree = "<group>"; };
+		C94E53AE29C6F8D2007644E0 /* TextFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModel.swift; sourceTree = "<group>"; };
+		C94E53B029C6F9F2007644E0 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		C94E53B229C70306007644E0 /* TextViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewModel.swift; sourceTree = "<group>"; };
+		C94E53B529C70389007644E0 /* ActionButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonCell.swift; sourceTree = "<group>"; };
+		C94E53B729C70577007644E0 /* ActionButtonCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonCellViewModel.swift; sourceTree = "<group>"; };
+		C94E53B929C705E2007644E0 /* DirectionalLayoutMargins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionalLayoutMargins.swift; sourceTree = "<group>"; };
 		C9B93A6729BDF02F0097D385 /* OnlineShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B93A6A29BDF02F0097D385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9B93A6C29BDF02F0097D385 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -222,6 +238,34 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		C94E53A729C6F734007644E0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C94E53A829C6F748007644E0 /* TextFieldViewCell.swift */,
+				C94E53B029C6F9F2007644E0 /* TextCell.swift */,
+				C94E53B529C70389007644E0 /* ActionButtonCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C94E53AA29C6F79F007644E0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C94E53AB29C6F7E8007644E0 /* TextFieldViewModel.swift */,
+				C94E53B229C70306007644E0 /* TextViewModel.swift */,
+				C94E53B729C70577007644E0 /* ActionButtonCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C94E53B429C7034D007644E0 /* Field */ = {
+			isa = PBXGroup;
+			children = (
+				C94E53AE29C6F8D2007644E0 /* TextFieldModel.swift */,
+			);
+			path = Field;
+			sourceTree = "<group>";
+		};
 		C9B93A5E29BDF02F0097D385 = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +303,7 @@
 		C9B93A8029BDF4B20097D385 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				C94E53AA29C6F79F007644E0 /* ViewModels */,
 				C9B93A8129BDF4B20097D385 /* Coordinator */,
 				C9B93A8529BDF4B20097D385 /* Endpoints */,
 				C9B93A8929BDF4B20097D385 /* Constants */,
@@ -356,6 +401,7 @@
 		C9B93A9629BDF4B20097D385 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C94E53B429C7034D007644E0 /* Field */,
 				C9B93A9729BDF4B20097D385 /* Network */,
 				C9B93A9C29BDF4B20097D385 /* RegistrationMode.swift */,
 				C9B93A9E29BDF4B20097D385 /* PinCodeButtonType.swift */,
@@ -418,6 +464,7 @@
 			children = (
 				C9B93AA529BDF4B20097D385 /* GestureRecognizer.swift */,
 				C9B93AA629BDF4B20097D385 /* StartStopAnimatingIndicator.swift */,
+				C94E53B929C705E2007644E0 /* DirectionalLayoutMargins.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -493,6 +540,7 @@
 		C9B93ABB29BDF4B20097D385 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C94E53A729C6F734007644E0 /* Cells */,
 				C9B93ABC29BDF4B20097D385 /* Buttons */,
 				C9B93ABE29BDF4B20097D385 /* InsetLabel.swift */,
 			);
@@ -798,6 +846,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94E53B629C70389007644E0 /* ActionButtonCell.swift in Sources */,
 				C9B93ADA29BDF4B20097D385 /* StartStopAnimatingIndicator.swift in Sources */,
 				C9B93ACB29BDF4B20097D385 /* LoadingIndicatorView.swift in Sources */,
 				C9B93AC729BDF4B20097D385 /* BaseCoordinator.swift in Sources */,
@@ -805,8 +854,10 @@
 				C9B93AC829BDF4B20097D385 /* BaseURL.swift in Sources */,
 				C9B93AD629BDF4B20097D385 /* PinCodeButtonType.swift in Sources */,
 				C9B93AE529BDF4B20097D385 /* PhoneValidator.swift in Sources */,
+				C94E53B829C70577007644E0 /* ActionButtonCellViewModel.swift in Sources */,
 				C9B93AE629BDF4B20097D385 /* ContactWorker.swift in Sources */,
 				C9B93AE029BDF4B20097D385 /* UITableView.swift in Sources */,
+				C94E53BA29C705E2007644E0 /* DirectionalLayoutMargins.swift in Sources */,
 				C9B93AD429BDF4B20097D385 /* RegistrationMode.swift in Sources */,
 				C9B93C4829BDF7830097D385 /* PrimaryRouter.swift in Sources */,
 				C9B93AC529BDF4B20097D385 /* Presentable.swift in Sources */,
@@ -818,6 +869,7 @@
 				C9B93ACC29BDF4B20097D385 /* LoadingBackgroundView.swift in Sources */,
 				C9B93AE129BDF4B20097D385 /* Spacing.swift in Sources */,
 				C9B93ADE29BDF4B20097D385 /* AlertController.swift in Sources */,
+				C94E53B129C6F9F2007644E0 /* TextCell.swift in Sources */,
 				C9B93ADC29BDF4B20097D385 /* UICollectionView.swift in Sources */,
 				C9B93C5629BE22130097D385 /* R.generated.swift in Sources */,
 				C9B93AC929BDF4B20097D385 /* AuthorizationEndpoints.swift in Sources */,
@@ -839,6 +891,7 @@
 				C9B93AD229BDF4B20097D385 /* BVCError.swift in Sources */,
 				C9B93AD729BDF4B20097D385 /* Array.swift in Sources */,
 				C9B93ACA29BDF4B20097D385 /* KeychainKeys.swift in Sources */,
+				C94E53AF29C6F8D2007644E0 /* TextFieldModel.swift in Sources */,
 				C9B93AD329BDF4B20097D385 /* NetworkError.swift in Sources */,
 				C9B93AE229BDF4B20097D385 /* MaskedString.swift in Sources */,
 				C9B93ADD29BDF4B20097D385 /* NavigationBarStyle.swift in Sources */,
@@ -847,15 +900,18 @@
 				C9B93AEA29BDF4B20097D385 /* APIClient.swift in Sources */,
 				C9B93AEE29BDF4BA0097D385 /* ApplicationCoordinator.swift in Sources */,
 				CEEDFCB1B5199DC911B8828F /* SignInBuilder.swift in Sources */,
+				C94E53B329C70306007644E0 /* TextViewModel.swift in Sources */,
 				B0052CD6297E342D715B702B /* SignInViewController.swift in Sources */,
 				3A3B0A1228C438ACB388F8D5 /* SignInTableDataSource.swift in Sources */,
 				BD5E4B8725D74C40F6B49F31 /* SignInTableDelegate.swift in Sources */,
+				C94E53A929C6F748007644E0 /* TextFieldViewCell.swift in Sources */,
 				3B2D80B4D1952B26C0942329 /* SignInInteractor.swift in Sources */,
 				A700F850228C288CFA010A27 /* SignInPresenter.swift in Sources */,
 				8B37E449DDB781B1E972AD6C /* SignInDataFlow.swift in Sources */,
 				93A00D411954760D4EC40098 /* SignInModel.swift in Sources */,
 				72A195E516921AE87AE7CEA0 /* SignInViewModel.swift in Sources */,
 				0FC78F890D6E1FDFD52168BC /* SignInProvider.swift in Sources */,
+				C94E53AC29C6F7E8007644E0 /* TextFieldViewModel.swift in Sources */,
 				9FC20A05FB4FB6E093CCDFEE /* SignInDataStore.swift in Sources */,
 				DD08E03DBBD98D168C328C04 /* SignInService.swift in Sources */,
 				39A8C373EC3B17FCF4E1B51C /* SignInView.swift in Sources */,
